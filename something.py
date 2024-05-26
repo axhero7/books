@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 def get_epub(dir):
     return [file for file in os.listdir(dir) if file.endswith('.epub') ]
