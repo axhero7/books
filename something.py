@@ -3,7 +3,7 @@ import json
 import os
 
 def get_epub(dir):
-    return [file for file in os.listdir(dir) if file.endswith('.epub') ]
+    return [file for file in os.listdir(dir) if file.endswith('.epub.json') ]
 url = 'https://api.jsonbin.io/v3/b/665295efe41b4d34e4f96e99'
 headers = {
   'Content-Type': 'application/json',
